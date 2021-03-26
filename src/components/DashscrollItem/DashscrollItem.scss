@@ -1,0 +1,89 @@
+.dash-list-item {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    margin-bottom: 28px;
+
+    .item-left {
+        display: flex;
+        align-items: center;
+
+        .ticket-owner-img {
+            margin-right: 16px;
+            width: 32px;
+            height: 32px;
+        }
+
+        .dash-owner {
+            display: flex;
+            align-items: center;
+
+            h3 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                color: #E0E6E9;
+            }
+
+            .owner-name {
+                width: 90px;
+                margin-right: 51px;
+            }
+
+            .owner-stat {
+                width: 137px;
+                margin-right: 32px;
+            }
+        }
+    }
+
+    .item-right {
+        .customer {
+            display: flex;
+
+            &-price {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                color: #E0E6E9;
+                margin-right: 121px;
+                width: 31px;
+            }
+
+            &-status {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 130%;
+                padding: 4px 12px;
+                border-radius: 30px;
+                color: #50D1AA;
+                background: rgba(107, 226, 190, 0.24);
+                border: none;
+                width: 91px;
+            }
+        }
+    }
+    &:nth-child(2){
+        .item-right{
+            .customer{
+                &-status{
+                    color: #9290FE;
+                    background: rgba(146, 144, 254, 0.2);
+                }
+            }
+        }
+    }
+    &:nth-child(3){
+        .item-right{
+            .customer{
+                &-status{
+                    color: #FFB572;
+                    background: rgba(255, 181, 114, 0.2);
+                }
+            }
+        }
+    }
+}

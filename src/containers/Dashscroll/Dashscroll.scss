@@ -1,0 +1,10 @@
+
+.dash-list2{
+    display: block;
+    height: 355px;
+    overflow: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}

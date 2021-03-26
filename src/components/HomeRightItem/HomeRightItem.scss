@@ -1,0 +1,65 @@
+.homeright-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 361px;
+    margin-bottom: 10px;
+    margin-top: 27px;
+
+    .HomeRight-item {
+        display: flex;
+        align-items: center;
+
+        .img {
+            width: 45px;
+            height: 41px;
+            margin-right: 5px;
+        }
+
+        .HomeRight-item-inner {
+            .HomeRight-text {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 130%;
+                color: #FFFFFF;
+                margin-bottom: 4px;
+            }
+
+            .HomeRight-price {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 140%;
+                color: #ABBBC2;
+            }
+
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+
+        .count {
+            background: #2D303E;
+            border: 1px solid #393C49;
+            box-sizing: border-box;
+            border-radius: 8px;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 21px;
+        }
+    }
+}

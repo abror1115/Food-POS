@@ -1,0 +1,26 @@
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+        background: #2D303E;
+        border: 1px solid #393C49;
+        box-sizing: border-box;
+        border-radius: 8px;
+        width: 297px;
+        height: 48px;
+        padding-left: 14px;
+        border:none;
+        outline: none;
+    }
+}
+
+.list{
+    height: 470px;
+    overflow: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}

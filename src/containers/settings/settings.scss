@@ -1,0 +1,15 @@
+.settings{
+    box-sizing: border-box;
+    border-radius: 8px;
+    // padding: 52px 24px 0 24px;
+    // padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    overflow: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}

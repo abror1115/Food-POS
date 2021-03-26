@@ -1,0 +1,51 @@
+.set{
+    
+    .set-item{
+        display: flex;
+        width: 100%;
+        padding: 24px 0 24px 25px;
+        box-sizing:border-box;
+        cursor: pointer;
+        .img{
+            fill:#ABBBC2;
+            margin-right: 10.3px;
+        }
+        .set-text{
+            font-family: Barlow;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            color: #FFFFFF;
+            margin-bottom: 4px;
+        }
+        .set-price{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 140%;
+            color: #ABBBC2;
+        }
+        &.active{
+            background: rgba(234, 124, 105, 0.26);
+            border-right: 2px solid #ea7c69;
+            .set-text{
+                color: #EA7C69;
+            }
+            .img{
+                fill: #EA7C69;
+            }
+        }
+    }
+    &:nth-child(3){
+        background: rgba(234, 124, 105, 0.26);
+        border-right: 2px solid #ea7c69;
+
+        .set-text{
+            color: #EA7C69;
+        }
+        .img{
+            fill: #EA7C69;
+        }
+    }
+}

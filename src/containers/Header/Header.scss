@@ -1,0 +1,122 @@
+.header {
+    padding-right: 21px;
+}
+
+.header-Top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-logo {
+        width: 40px;
+        height: 30px;
+        object-fit: cover;
+    }
+
+    &-link {
+        padding: 20px;
+        // margin: 0 10px;
+        display: inline-block;
+        color: #fff;
+
+        &:active {
+            border-bottom: 1px solid rgb(88, 189, 30);
+        }
+    }
+
+    &-form {
+        display: flex;
+        align-items: center;
+
+        .header-input {
+            background: #2D303E;
+            border: 1px solid #393C49;
+            box-sizing: border-box;
+            border-radius: 8px;
+            width: 220px;
+            height: 48px;
+            padding-left: 42px;
+            outline: none;
+        }
+
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            background-image: url('../../assets/images/icons/search.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 14px;
+            width: 20px;
+            height: 20px;
+            z-index: 2;
+        }
+
+        .header-search-btn {
+            border-radius: 10px;
+            height: 28px;
+            outline: none;
+            background: rgb(41, 62, 119);
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+.header-links {
+    display: flex;
+    border-bottom: 1px solid #393C49;
+    // width: 685px;
+    // button{
+    //     background: transparent;
+    //     border:none;
+    // }
+}
+
+button {
+    // padding: 0 16px 0 0;
+    background: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    padding-bottom: 13px;
+    border-bottom: 1px solid transparent;
+
+    &.active {
+        color: #EA7C69;
+        border-bottom: 1px solid #EA7C69;
+    }
+}
+
+.resto {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.res-data {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #E0E6E9;
+}
